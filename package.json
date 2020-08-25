@@ -1,0 +1,22 @@
+{
+  "name": "node-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:dnstld/node-typescript.git",
+  "author": "Denis Toledo <contato@denistoledo.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev:server": "ts-node-dev --inspect --transpile-only --ignore-watch node_modules src/server.ts"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "date-fns": "^2.15.0",
+    "express": "^4.17.1",
+    "uuidv4": "^6.2.2"
+  },
+  "devDependencies": {
+    "ts-node-dev": "^1.0.0-pre.56",
+    "typescript": "^3.9.7"
+  }
+}
